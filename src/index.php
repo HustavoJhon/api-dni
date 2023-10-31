@@ -73,7 +73,7 @@
     $('#buscar').click(function () {
         var dni = $('#documento').val();
         $.ajax({
-            url: "./src/controller/consultas.php",
+            url: "controller/consultas.php",
             type: "POST",
             cache: false,
             data: { dni: dni },
